@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RentedCarDetailFormController">
+   <children>
+      <Label layoutX="268.0" layoutY="22.0" text="Details">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Pane layoutX="22.0" layoutY="100.0" prefHeight="161.0" prefWidth="296.0" style="-fx-border-radius: 10; -fx-border-color: gray;">
+         <children>
+            <Label layoutX="14.0" layoutY="23.0" text="Regestration number :" />
+            <Label layoutX="13.0" layoutY="50.0" text="Brand :" />
+            <Label layoutX="12.0" layoutY="77.0" text="Model :" />
+            <Label layoutX="12.0" layoutY="104.0" text="Price at rent time :" />
+            <Label layoutX="12.0" layoutY="129.0" text="Current price :" />
+            <Label fx:id="regestrationNumberDisplay" layoutX="142.0" layoutY="23.0" text="1N6AD0CUXBC802299">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="brandDisplay" layoutX="60.0" layoutY="50.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="modelDisplay" layoutX="62.0" layoutY="77.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="priceAtRentTimeDisplay" layoutX="119.0" layoutY="104.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="currentPriceDisplay" layoutX="97.0" layoutY="129.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="337.0" layoutY="101.0" prefHeight="280.0" prefWidth="296.0" style="-fx-border-radius: 10; -fx-border-color: gray;">
+         <children>
+            <Label layoutX="14.0" layoutY="-8.0" style="-fx-background-color: #f4f4f4;" text=" Client details : " />
+            <Label layoutX="16.0" layoutY="25.0" text="Firstname :" />
+            <Label layoutX="16.0" layoutY="51.0" text="Lastname :" />
+            <Label layoutX="16.0" layoutY="80.0" text="CIN :" />
+            <Label layoutX="15.0" layoutY="109.0" text="Phone number :" />
+            <Label layoutX="15.0" layoutY="138.0" text="Email :" />
+            <Label layoutX="15.0" layoutY="165.0" text="Address :" />
+            <Label fx:id="firstNameDisplay" layoutX="84.0" layoutY="25.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lastNameDisplay" layoutX="83.0" layoutY="51.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="cinDisplay" layoutX="52.0" layoutY="80.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="phoneNumberDisplay" layoutX="110.0" layoutY="109.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailDisplay" layoutX="60.0" layoutY="138.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="addressDisplay" layoutX="74.0" layoutY="165.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="37.0" layoutY="92.0" style="-fx-background-color: #f4f4f4;" text=" Car details : " />
+      <Pane layoutX="22.0" layoutY="275.0" prefHeight="105.0" prefWidth="296.0" style="-fx-border-radius: 10; -fx-border-color: gray;">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" text="Rent date :" />
+            <Label layoutX="14.0" layoutY="46.0" text="Return date :" />
+            <Label layoutX="16.0" layoutY="-7.0" style="-fx-background-color: #f4f4f4;" text=" Rent details : " />
+            <Label layoutX="14.0" layoutY="72.0" text="Total price :" />
+            <Label fx:id="rentDateDisplay" layoutX="81.0" layoutY="21.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="returnDateDisplay" layoutX="92.0" layoutY="46.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalPriceDisplay" layoutX="86.0" layoutY="72.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
